@@ -5,7 +5,7 @@ pipeline {
         DOCKER_HUB_PASSWORD = credentials('DOCKER_HUB_TOKEN')
         DOCKER_HUB_USERNAME = credentials('USERNAME')
         
-        CURRENT_COMMIT = getCommitHash()
+        CURRENT_COMMIT = "v1"
     }
 
     stages {
